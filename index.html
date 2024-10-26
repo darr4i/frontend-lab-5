@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма реєстрації</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <form>
+      <label for="fullName">ПІБ:</label>
+      <input type="text" id="fullName" name="fullName" required />
+
+      <label for="faculty">Факультет:</label>
+      <input type="text" id="faculty" name="faculty" required />
+
+      <label for="birthdate">Дата народження:</label>
+      <input type="text" id="birthdate" name="birthdate" required />
+
+      <label for="address">Адреса:</label>
+      <input type="text" id="address" name="address" required />
+
+      <label for="email">Електронна пошта:</label>
+      <input type="email" id="email" name="email" required />
+
+      <button type="submit">Відправити</button>
+    </form>
+
+    <div class="task2_container">
+      <input type="color" id="colorPicker" name="colorPicker" value="#ff0000" />
+      <table>
+        <thead>
+          <tr>
+            <th>N</th>
+          </tr>
+        </thead>
+        <tbody id="numberTableBody"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
